@@ -1,0 +1,51 @@
+#dlt {
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: red;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+#dlt:hover {
+  background: red;
+  color: white;
+  transition: 0.3s;
+}
+
+#edt {
+  margin-left: 20px;
+  cursor: pointer;
+  background: white;
+  color: blue;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+#edt:hover {
+  background: blue;
+  color: white;
+  transition: 0.3s;
+}
+
+ol {
+  color: green;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+ol li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+ol li:hover {
+  background-color: white;
+  padding: 0px 3px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #888888;
+  transition: 0.5s;
+}

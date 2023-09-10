@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+  background-color: #98cfe8;
+  font-size: 1rem;
+}
+
+h1 {
+  align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#addTask {
+  all: unset;
+  width: 50px;
+  align-self: center;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-align: center;
+  border: 0.7px solid gray;
+  border-radius: 5px;
+}
+
+#addTask:hover {
+  background-color: black;
+  color: white;
+  width: 52px;
+  transition: 0.4s;
+  box-shadow: 3px 3px 3px #b6b4b4;
+}
+
+#textField {
+  margin-top: 10px;
+}
+
+.inputWithButton {
+  position: relative;
+  width: 200px;
+}
+
+.inputWithButton input {
+  width: 70%;
+  height: 25px;
+  padding-right: 60px;
+}
+
+.inputWithButton span {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background-color: white;
+  color: green;
+  cursor: pointer;
+  border: 0.7px solid gray;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.inputWithButton span:hover {
+  background-color: green;
+  color: white;
+  transition: 0.3s;
+}
