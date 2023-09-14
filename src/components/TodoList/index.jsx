@@ -85,8 +85,8 @@ export const TodoList = () => {
 
   return (
     <div className="container">
-      <div>
-        <form onSubmit={handleSubmit}>
+      {/* <div> */}
+        <form className='formElement' onSubmit={handleSubmit}>
           <h1>To-do List</h1>
           <input
             id="addTextField"
@@ -129,7 +129,7 @@ export const TodoList = () => {
             })}
           </ol>
         </form>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

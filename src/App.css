@@ -7,11 +7,15 @@
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
+  width: 100vw;
   font-family: Poppins, sans-serif;
   background-color: #98cfe8;
   font-size: 1rem;
 }
+
+
 
 h1 {
   align-self: center;
@@ -20,6 +24,7 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
+  width: 60%;
   gap: 10px;
 }
 
@@ -30,7 +35,6 @@ form {
   background-color: white;
   color: black;
   cursor: pointer;
-  font-size: 0.8rem;
   text-align: center;
   border: 0.7px solid gray;
   border-radius: 5px;
@@ -50,25 +54,29 @@ form {
 
 .inputWithButton {
   position: relative;
-  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
 }
 
 .inputWithButton input {
   width: 70%;
-  height: 25px;
-  padding-right: 60px;
+  /* height: 25px; */
+  /* padding-right: 60px; */
 }
 
 .inputWithButton span {
   position: absolute;
   right: 0;
-  top: 15px;
+  top: 9px;
   background-color: white;
   color: green;
   cursor: pointer;
   border: 0.7px solid gray;
   border-radius: 5px;
-  padding: 0px 5px;
+  padding: 0px 4px;
+  align-self: center;
 }
 
 .inputWithButton span:hover {
